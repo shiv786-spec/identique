@@ -6,6 +6,10 @@
         justify-content: center;
         text-align: left;
     }
+      .footer-box{
+        min-height: 200px;
+        min-width: 400px;
+      }
 }
 
 footer{

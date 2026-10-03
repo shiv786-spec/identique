@@ -11,8 +11,8 @@ function Footer(params) {
             </div>
             <div className="footer-box">
                 <h3>ABOUT IDENTIQ. INTRACTIVE</h3>
-                <p>Being involved in every step of a project is the only way to guarantee it'll be a great one. Our developers 
-                    work closely with our designers
+                <p>Being involved in every step of a project is the only way to guarantee <br /> it'll be a great one. Our developers 
+                    work closely with our designers <br />
                      to make sure every product we ship is excellent, all the way through.</p>
             </div>
             <div className="footer-box">
