@@ -1,0 +1,41 @@
+@media screen and (max-width:786px) {
+
+
+    .icon{
+        display: block;
+
+
+        }
+
+    .ul{
+        display: none;
+    }
+
+    
+}
+
+
+
+.icon{
+    display: none;
+}
+nav{
+    min-height: 10vh;
+    /* color: white; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position:absolute; */
+    /* z-index: 10; */
+    /* min-width:100%; */
+
+
+    ul{
+        display: flex;
+        min-width: 50%;
+        list-style: none;
+        justify-content: space-evenly;
+        /* background-color: red; */
+    }
+}

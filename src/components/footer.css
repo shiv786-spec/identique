@@ -1,0 +1,41 @@
+
+@media screen and (max-width:786px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+footer{
+    min-height: 30vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .footer-box{
+        height: 200px;
+        width: 400px;
+        /* border: 2px solid white; */
+        display: flex;
+        padding: 10px;        
+        flex-direction: column;
+        gap: 10px;
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.footer-redline{
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}

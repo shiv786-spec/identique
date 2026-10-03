@@ -1,0 +1,121 @@
+@media screen and (max-width:786px) {
+    .about-con{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-grid-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+    }
+}
+
+
+
+.home-container{
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+    /* position:relative; */
+    /* z-index: 10; */
+
+    .about-box{
+        width: 80%;
+        /* height: 100vh; */
+        /* border: 2px solid black; */
+    }
+
+
+    .about-heading{
+        /* width: 90%; */
+        /* height: 20vh; */
+        padding: 20px;
+
+        h2{
+            font-size: 40px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             border-bottom: 2px solid black;
+        }
+    }
+    p{
+        font-size:50px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+.about-con{
+    min-height: 60vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    /* border: 2px solid black; */
+
+
+    .about-img{
+        height: 400px;
+        width: 80%;
+        /* border: 2px solid black; */
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .about-content{
+        height: 400px;
+        width: 350px;
+        /* border: 2px solid black; */
+        color: white;
+        background-color: rgb(237, 92, 92);
+
+        h4{
+            font-size: 30px;
+            padding: 20px;
+        }
+
+       .about-para{
+        padding: 20px;
+        /* border: 2px solid black; */
+        width: 50%;
+        
+
+        p{
+            font-size: 20px;
+        }
+       }
+    }
+}
+
+.about-grid-con{
+    /* min-height: 40vh; */
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 20px;
+
+
+
+    .grid-box{
+        /* height: 200px; */
+        width: 30%;
+        padding: 10px;
+        /* border: 2px solid rgb(191, 106, 106); */
+
+        p{
+            font-size: 14px;
+        }
+    }
+
+}

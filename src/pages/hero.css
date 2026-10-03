@@ -1,0 +1,39 @@
+.background{
+    height: 100vh;
+    background-image: url(/header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   /* background-attachment: fixed; */
+    /* width: 100%; */
+
+
+    .hero-content{
+        /* border: 2px solid white; */
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* height: 500px; */
+        width: 800px;
+
+        h1{
+             font-size: 62px;
+             font-weight: 100;
+             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{
+            font-size: 25px;
+        }
+
+        button{
+            padding: 14px 30px;
+            background-color: aquamarine;
+            border-radius: 30px;
+            font-size: 17px;
+        }
+    }
+}
