@@ -1,5 +1,5 @@
 .background{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(/header.jpg);
     background-size: cover;
     display: flex;
